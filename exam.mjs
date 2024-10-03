@@ -1,4 +1,4 @@
-export function getDivisibleByFourString3() {
+export function analisisdata() {
   let result = [];
   for (let i = 1; i <= 20; i++) {
     let divisibleByFour = i % 4 === 0 ? "bisa dibagi 4" : "tidak bisa dibagi 4";
@@ -9,4 +9,4 @@ export function getDivisibleByFourString3() {
   return result;
 }
 
-console.log(getDivisibleByFourString3());
+console.log(analisisdata());
